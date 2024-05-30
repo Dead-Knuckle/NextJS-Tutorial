@@ -18,10 +18,7 @@
         "name": "next"
       }
     ],
-    "baseUrl": "./",
-    "paths": {
-      "@/*": ["./*"]
-    }
+
   },
   "include": [
     "next-env.d.ts",
@@ -31,5 +28,10 @@
     "app/lib/placeholder-data.js",
     "scripts/seed.js"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+
+  "baseUrl": "./",
+  "paths": {
+    "@/*": ["./*"]
+  }
 }
